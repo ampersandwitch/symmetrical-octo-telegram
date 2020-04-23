@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<body>
+
+<h2>Demo of doubling to combined sum</h2> 
+
+<p>The numbers will be doubled then added together for a total sum:</p>
+
+<h3>Array of Numbers </h3>
+
+<p>Write a method that performs a function on each element in an array that doubles each number and returns the sum of the new, 
+processed array.</p>
+
+<p>Example: var numbers = [1, 4, 9]; ==> result will be 28
+This open book/web. Google anything you like.</p>
+
+<p id="demo"></p>
+
+<script>
+
+var numbers = [4, 4, 7, 3];
+
+let newArray = numbers.map( function(num){
+  return num * 2
+});
+
+const sum = newArray.reduce((total, amount) => total + amount);
+
+document.getElementById("demo").innerHTML = sum;
+
+</script>
+
+</script>
+
+</body>
+</html>
+
+
