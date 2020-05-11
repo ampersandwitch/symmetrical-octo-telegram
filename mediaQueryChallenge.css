@@ -1,0 +1,79 @@
+/* Common Styles */
+.content {
+    color: black;
+    font: 100 24px/100px sans-serif;
+    height: 150px;
+    text-align: center;
+}
+
+.content div {
+    height: 50%;
+    width: 300px;
+    border-style: solid;
+    padding: 5px;
+}
+.pink {
+    background: pink;
+}
+.green {
+    background: green;
+}
+.blue {
+    background: steelblue;
+}
+
+/* Flexbox */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 576px) {
+    .pink {
+    background-color: lightgreen;
+    }
+    .green {
+    background-color: aqua;   
+}
+    .blue {
+    background-color: blueviolet;
+}   
+} 
+
+@media screen and (min-width: 577px) {
+    .pink {
+    background-color: orangered;
+    }
+    .green {
+    background-color: greenyellow;   
+}
+    .blue {
+    background-color: gray;
+}   
+} 
+
+@media screen and (min-width: 992px) {
+    .pink {
+    background-color: purple;
+    }
+    .green {
+    background-color: fuchsia;   
+}
+    .blue {
+    background-color: aquamarine;
+}   
+} 
+
+@media screen and (min-width: 1200px) {
+    .pink {
+    background-color: whitesmoke;
+    }
+    .green {
+    background-color: whitesmoke;  
+}
+    .blue {
+    background-color:whitesmoke;
+}   
+} 
